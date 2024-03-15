@@ -1,0 +1,19 @@
+.container{
+    display: inline-flex;
+    flex: 1 1 300px;
+    background-repeat: 10px;
+    border: 1px solid;
+    overflow: hidden;
+
+}
+.icon{
+    padding: 10px;
+}
+.searchBox{
+    border: 0;
+    flex:1 ;
+
+
+}.searchButton{
+    color: gray;
+}
