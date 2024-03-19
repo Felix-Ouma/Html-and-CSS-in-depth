@@ -26,3 +26,99 @@ button{
     border-radius: 5px;
     border: none;
 }
+h1::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+h2::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+h3::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+h4::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+h5::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+h6::first-letter{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+p::first-line{
+    color: blue;
+    font-weight: bolder;
+    line-height: 110%;
+    text-decoration: underline;
+
+}
+
+li::first-letter{
+    color: coral;
+    font-weight: bolder;
+    line-height: 50px;
+
+}
+
+a::first-letter{
+    color: coral;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+
+label::first-letter{
+    color: coral;
+    font-weight: bolder;
+    line-height: 110%;
+
+}
+p::marker {
+        color: cornflowerblue;
+        content: '<> ';
+        font-size: 1.1em;
+    }
+li::marker {
+    color: cornflowerblue;
+    content: '<> ';
+    font-size: 1.1em;
+}
+#greet::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#greet::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "closed";
+    padding-right: 5px;
+    border-radius: 20%;
+}
