@@ -38,13 +38,14 @@
 
 /* Add rules for steps 8 and 9 */
 .letters:hover p:nth-child(even){
-	transform: rotatey(360deg);
+	transform: rotatey(720deg);
 	transition: .5s;
+	transform: skewy(10deg);
 	
 
 }
 .letters:hover p:nth-child(odd){
-	transform: rotateX(360deg);
+	transform: rotateX(720deg);
 	transition: 1.5s;
 
 }
