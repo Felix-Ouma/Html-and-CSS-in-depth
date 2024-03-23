@@ -1,8 +1,9 @@
 /* creating variables in css and constatnly using them */
-$font-stack Arial 
-$primary-color lightblue 
+$font-stack: Arial;
+$primary-color: lightblue;
+
 @mixin some-rules {
-    color: lightblue;
+    color: $primary-color;
     font-size: 25px;
     font-weight: bold;
 }
@@ -11,6 +12,7 @@ button {
     @include some-rules;
 }
 
-body 
-  font: 100% $font-stack 
-  color: $primary-color 
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
